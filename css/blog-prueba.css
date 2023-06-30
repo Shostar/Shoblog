@@ -1,0 +1,260 @@
+title {
+	color:rgb(240, 137, 41);
+text-align:center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(240, 137, 41);
+}
+
+header img {
+  width: 60x;
+  height: auto;
+}
+
+header h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+}
+h1 {
+color:white;
+text-align:center;
+}
+float {
+	  float: left;
+}
+p {
+	font-size: 50px;
+	color:white;
+text-align:center;
+}
+body {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 145, 0);
+	text-align: center;
+}
+a {
+	color: rgb(241, 142, 21);
+}
+.hero {
+	min-height: 50px;
+	background-color: rgb(240, 137, 41);
+	background-size: cover;
+	color: honey;
+	display: grid;
+	place-items: center;
+}
+.hero h1 {
+	margin: 0;
+	font-size: 50px;
+}
+body {
+	font-family:ubuntu;
+	margin: 0;
+}
+img {
+	background-size: cover;
+}
+section.headnav {
+    float: left;
+    width: 100%;
+    padding: 12px 0 35px 0px
+}
+
+section.headnav .headnav_left {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px
+}
+.header{
+	background-color: rgb(240, 137, 41);
+	background-size: cover;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; 
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+}
+@font-face {
+	font-family: ubuntu;
+	src: url(Ubuntu-Regular.ttf);
+}
+@font-face {
+	font-family: bebas;
+	src: url(BebasNeue-Regular.ttf);
+}
+body {
+	font-family: ubuntu;
+	margin: 0;
+}
+h1 {
+	font-family: bebas;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 5fr));
+    grid-gap: 100px;	
+    margin: 25px;
+	min-height: 400px;
+	background-position: center;
+	background-size: cover;
+	place-items: center;
+  }
+.img2 {
+	width: 10%;
+	height: 80%;
+  transition: all .2s ease-in-out;
+ padding-left: 65px ;
+}
+  img:hover {
+      transform: scale(1.1);
+  }
+s
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ====================
+	* BOTONES / BOTON *
+==================== */
+.btn{
+  width: 100px;
+  height: 70px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	display: inline-block;
+	padding: 40px 56px; /*margen interno*/
+	border-radius: 6px; /*borde redondeado*/
+	text-align: center;
+	line-height: 15px;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px; /*tamaño de las letras*/
+	overflow: hidden;
+    margin-left: 90px;
+	box-shadow: 0px 6px 18px -5px rgba(0, 0, 0, 0.5);
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn:visited, .btn:hover{
+  color: #fff;
+}
+.btn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn i{
+	color: #fff;
+	font-size: 16px
+}
+.btn.color-verde {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/anime img.jpg');
+background-size: 200px 100px;
+}
+.btn.color-azul {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/IMG-Calendario.jpg');
+background-size: 200px 100px;
+}
+
+.btn.color-rojo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/pag-anime.jpg');
+background-size: 200px 100px;
+}
+
+.btn.color-amarillo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/pag-app-ayuda-escuela.jpg');
+background-size: 30%;
+}
+
+.btn.color-oscuro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/manga.jpg');
+background-size: 200px 100px;
+}
+
+.btn.color-claro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/video.jpg');
+background-size: 200px 100px;
+}
+.footer {
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.footer-links a {
+	color:rgb(240, 137, 41);
+	text-decoration: none;
+	margin: 0 10px;
+}
