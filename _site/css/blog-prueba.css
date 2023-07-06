@@ -248,9 +248,71 @@ background-size: 200px 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/video.jpg');
 background-size: 200px 100px;
 }
+.btn.a{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/gogoanime.png');
+background-size: 200px 100px;
+}
+.btn.b {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/monoschinos.png');
+background-size: 200px 100px;
+}
+
+.btn.c {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/jkanime.png');
+background-size: 200px 100px;
+}
+
+.btn.d {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animeflv.png');
+background-size: 30%;
+}
+
+.btn.e {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/tioanime.png');
+background-size: 200px 100px;
+}
+
+.btn.f {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animefenix.png');
+background-size: 200px 100px;
+}
+.btn.g {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animeboom.png');
+background-size: 200px 100px;
+}
+.btn.h {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/otakustv.png');
+background-size: 200px 100px;
+}
+
+.btn.i {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animeid.png');
+background-size: 200px 100px;
+}
+
+.btn.j {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animemovil.png');
+background-size: 200px 100px;
+}
+
+.btn.k{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animeyt.png');
+background-size: 30%;
+}
+.btn.l{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/animeblix.png');
+background-size: 30%;
+}
+.btn.m{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sr.png');
+background-size: 30%;
+}
 .footer {
 	background-color: black;
-	padding: 20px;
+	padding-top: 150px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
 	text-align: center;
 }
 .footer-links a {

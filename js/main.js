@@ -4,6 +4,7 @@ opciones.forEach(function(opcion) {
   var li = document.createElement("li");
   var link = document.createElement("a");
   link.href = opcion.toLowerCase('index.html');
+  link.href = opcion.toLowerCase('paginas-de-anime.html');
   link.textContent = opcion;
   li.appendChild(link);
   menu.appendChild(li);
