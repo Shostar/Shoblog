@@ -7,6 +7,8 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(240, 137, 41);
+	background-size: cover;
+  text-align: center;
 }
 
 header img {
@@ -36,6 +38,8 @@ body {
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 145, 0);
 	text-align: center;
+  	font-family:ubuntu;
+	margin: 0;
 }
 a {
 	color: rgb(241, 142, 21);
@@ -52,10 +56,6 @@ a {
 	margin: 0;
 	font-size: 50px;
 }
-body {
-	font-family:ubuntu;
-	margin: 0;
-}
 img {
 	background-size: cover;
 }
@@ -69,10 +69,6 @@ section.headnav .headnav_left {
     float: left;
     padding-right: 40px;
     padding-left: 40px
-}
-.header{
-	background-color: rgb(240, 137, 41);
-	background-size: cover;
 }
 * {
   margin: 0px;
@@ -128,10 +124,6 @@ section.headnav .headnav_left {
 	font-family: bebas;
 	src: url(BebasNeue-Regular.ttf);
 }
-body {
-	font-family: ubuntu;
-	margin: 0;
-}
 h1 {
 	font-family: bebas;
 }
@@ -179,6 +171,30 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+.calendar {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  width: calc(100% / 7);
+}
+
+.anime {
+  margin-top: 20px;
+}
+
+.anime img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 
@@ -305,6 +321,62 @@ background-size: 30%;
 }
 .btn.m{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sr.png');
+background-size: 30%;
+}
+.btn.n{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/mangahere.png');
+background-size: 30%;
+}
+.btn.ñ{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/mangafox.png');
+background-size: 30%;
+}
+.btn.o{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/lectortmo.png');
+background-size: 30%;
+}
+.btn.p{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/mangareader.png');
+background-size: 30%;
+}
+.btn.q{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/mangapark.png');
+background-size: 30%;
+}
+.btn.r{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/bato.to.png');
+background-size: 30%;
+}
+.btn.s{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.t{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.u{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.v{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.w{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.x{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.y{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+background-size: 30%;
+}
+.btn.z{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
 background-size: 30%;
 }
 .footer {
