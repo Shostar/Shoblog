@@ -351,35 +351,79 @@ background-size: 30%;
 background-size: 30%;
 }
 .btn.s{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/resoomer.jpeg');
 background-size: 30%;
 }
 .btn.t{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/y2mate.jpeg');
 background-size: 30%;
 }
 .btn.u{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/speechnotes.jpeg');
 background-size: 30%;
 }
 .btn.v{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/OCR2EDIT.jpeg');
 background-size: 30%;
 }
 .btn.w{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/bearaudio.jpeg');
 background-size: 30%;
 }
 .btn.x{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/mediaio.jpg');
 background-size: 30%;
 }
 .btn.y{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/epidemicsound.png');
 background-size: 30%;
 }
 .btn.z{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/qrplanet.jpg'); 
+background-size: 30%;
+}
+.btn.aa{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/jdownloader.jpg'); 
+background-size: 30%;
+}
+.btn.ab{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/naturalreader.jpg'); 
+background-size: 30%;
+}
+.btn.ac{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/savefrom.jpg'); 
+background-size: 30%;
+}
+.btn.ad{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/123app.png'); 
+background-size: 30%;
+}
+.btn.ae{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/getfvd.jpg'); 
+background-size: 30%;
+}
+.btn.af{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/calculadoraconversor.jpg'); 
+background-size: 30%;
+}
+.btn.ag{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/chat.openai.png'); 
+background-size: 30%;
+}
+.btn.ah{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/sendeyo.png'); 
+background-size: 30%;
+}
+.btn.ai{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/plagiarisma.png'); 
+background-size: 30%;
+}
+.btn.aj{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/ilovepdf.png'); 
+background-size: 30%;
+}
+.btn.ak{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/manga-fox-full.png'); 
 background-size: 30%;
 }
 .footer {
